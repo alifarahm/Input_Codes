@@ -9,7 +9,7 @@ import os
 import datetime
 from dateutil import parser
 
-get_ipython().magic('run C:/Users/alifa/Documents/Investment/Input_Codes/data_loading_functions.py')
+get_ipython().magic('run C:/Users/alifa/My_Documents/Investment/Codes/Input_Codes/data_loading_functions.py')
 
 
 # from a02_functions import TSE_price_df_extract
@@ -73,11 +73,11 @@ if market == 'US':
     price_df_tech_ind_dir = r'C:\Users\alifa\Desktop\screening\us\price_df_tech_ind'
 
 elif market == 'TSE':
-    index_price_df_file_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\1Raw_Symbols_Price'
-    price_df_path_source = r'D:\Investments\TSE\Raw_Symbols_Price_All'
-    price_df_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\1Raw_Symbols_Price'
-
-
+    index_price_df_file_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\1Raw_Symbols_Price'
+    price_df_path_source = r'D:\Investments\TSE\Raw_Symbols_Price_All\d'
+    price_df_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\1Raw_Symbols_Price'
+    
+    symbol_sector_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening'
 
     # ---------------------------- PMA average screening -----------------------------------------------------------------
     ma_screening_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\2Moving_Average'    
