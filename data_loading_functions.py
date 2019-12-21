@@ -10,9 +10,9 @@ import pandas as pd
 from dateutil import parser
 import os
 
-from pandas_datareader import data as pdr
-import fix_yahoo_finance as yf
-yf.pdr_override()  # <== that's all it takes :-)
+# from pandas_datareader import data as pdr
+# import fix_yahoo_finance as yf
+# yf.pdr_override()  # <== that's all it takes :-)
 
 
 # In[14]:

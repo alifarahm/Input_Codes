@@ -501,7 +501,7 @@ def stochastic(price_df, fastk_period=5, slowk_period=3, slowk_matype=0, slowd_p
     price_df['STOCH_slowk_' + str(slowk_matype)] =     talib.STOCH(high_p, low_p, close_p, fastk_period, slowk_period, slowk_matype, slowd_period, slowd_matype)[0]
     price_df['STOCH_slowd_' + str(slowk_matype)] =     talib.STOCH(high_p, low_p, close_p, fastk_period, slowk_period, slowk_matype, slowd_period, slowd_matype)[1]
 
-    price_df['STOCH_slowk/slowd_' + str(slowk_matype)] = list(map((lambda x, y: x / y),                                                                   price_df['STOCH_slowk_' + str(slowk_matype)],                                                                   price_df['STOCH_slowd_' + str(slowk_matype)]))
+#     price_df['STOCH_slowk/slowd_{a}'.format(a = str(slowk_matype))] = list(map((lambda x, y: x / y),                                                                   price_df['STOCH_slowk_{a}'.format(a = str(slowk_matype))],                                                                   price_df['STOCH_slowd_{a}'.format(a = str(slowk_matype))]))
 
     return price_df
 
