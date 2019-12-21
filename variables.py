@@ -80,34 +80,34 @@ elif market == 'TSE':
 
 
     # ---------------------------- PMA average screening -----------------------------------------------------------------
-    ma_screening_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\2Moving_Average'    
+    ma_screening_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\2Moving_Average'    
     
     
     # '---------------------------- Advanced Get path and variables -------------------------------------------------------
-    advanced_get_daily_excel_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\3Advanced_Get\excel_daily'
-    advanced_get_daily_pdf_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\3Advanced_Get\pdf_daily'
+    advanced_get_daily_excel_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\3Advanced_Get\excel_daily'
+    advanced_get_daily_pdf_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\3Advanced_Get\pdf_daily'
 
-    advanced_get_weekly_excel_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\3Advanced_Get\excel_weekly'
-    advanced_get_weekly_pdf_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\3Advanced_Get\pdf_weekly'
+    advanced_get_weekly_excel_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\3Advanced_Get\excel_weekly'
+    advanced_get_weekly_pdf_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\3Advanced_Get\pdf_weekly'
 
-    advanced_get_screening_result_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\3Advanced_Get\screening_result'
+    advanced_get_screening_result_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\3Advanced_Get\screening_result'
     # -----------------------------------------------------------------------------------------------------------------------
 
     # ---------------------------- Candlestick reversals path and variables -------------------------------------------------
-    candlestick_screen_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\4Candlestick_Reversal'
+    candlestick_screen_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\4Candlestick_Reversal'
     # -----------------------------------------------------------------------------------------------------------------------
     
     # '------------------------------------------ Stochastic Reversal -------------------------------------------------------    
-    stochastic_screen_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\5Stoch_Reversal'
+    stochastic_screen_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\5Stoch_Reversal'
     # ------------------------------------------------------------------------------------------------------------------------    
     
-    # ------------------------------------------ General Screening -------------------------------------------------------     
-    general_screening_result_path = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\6General_Screening'
+    # ------------------------------------------ General Screening ----------------------------------------------------------     
+    general_screening_result_path = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\6General_Screening'
     # ------------------------------------------------------------------------------------------------------------------------
 
-    
-    screening_df_all_file_dir = r'C:\Users\alifa\Documents\Investment\Stocks\US_TSE_Screening\7Screening_All'
-    
+    # ------------------------------------------ Combine all screening ------------------------------------------------------- 
+    screening_df_all_file_dir = r'C:\Users\alifa\My_Documents\Investment\Docs\Stocks\TSE_Screening\7Screening_All'
+    # ------------------------------------------------------------------------------------------------------------------------
     
     
     symbols_beta_file_path = os.path.join(r'C:\Users\alifa\Desktop\screening\TSE\beta', 'tse_symbols_beta.csv')
